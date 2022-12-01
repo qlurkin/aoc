@@ -13,9 +13,9 @@ class OperationLogger:
 
     def __exit__(self, exc_type, exc_val, traceback):
         if exc_val is None:
-            print('DONE')
+            print('\033[92mDONE\033[0m')
         else:
-            print('FAIL')
+            print('\033[91mFAIL\033[0m')
             print('   {}: {}'.format(exc_type.__name__, exc_val))
         return True
 
