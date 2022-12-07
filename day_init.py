@@ -26,7 +26,7 @@ src_filename = 'puzzle.py'
 root_path = os.path.dirname(os.path.abspath(sys.argv[0]))
 src_path = os.path.join(root_path, src_filename)
 year_path = os.path.join(root_path, year)
-day_path = os.path.join(year_path, 'day{}'.format(day))
+day_path = os.path.join(year_path, 'src', 'bin', 'day{}'.format(day))
 dst_path = os.path.join(day_path, src_filename)
 test_path = os.path.join(day_path, 'test')
 
