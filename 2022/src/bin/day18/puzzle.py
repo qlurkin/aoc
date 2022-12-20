@@ -11,7 +11,7 @@ def parse(filename):
 
 def add(A, B):
     return tuple(a+b for a, b in zip(A, B))
-    
+
 directions = [
     (1, 0, 0),
     (-1, 0, 0),
