@@ -1,3 +1,5 @@
+article \*[title]{border-bottom:1px dotted #ffff66;}
+
 \--- Day 21: Monkey Math ---
 ----------
 
@@ -46,8 +48,27 @@ This process continues until `root` yells a number: `*152*`.
 
 However, your actual situation involves considerably more monkeys. *What number will the monkey named `root` yell?*
 
-To begin, [get your puzzle input](21/input).
+Your puzzle answer was `121868120894282`.
 
-Answer:
+\--- Part Two ---
+----------
 
-You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=%22Monkey+Math%22+%2D+Day+21+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F21&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+Due to some kind of monkey-elephant-human mistranslation, you seem to have misunderstood a few key details about the riddle.
+
+First, you got the wrong job for the monkey named `root`; specifically, you got the wrong math operation. The correct operation for monkey `root` should be `=`, which means that it still listens for two numbers (from the same two monkeys as before), but now checks that the two numbers *match*.
+
+Second, you got the wrong monkey for the job starting with `humn:`. It isn't a monkey - it's *you*. Actually, you got the job wrong, too: you need to figure out *what number you need to yell* so that `root`'s equality check passes. (The number that appears after `humn:` in your input is now irrelevant.)
+
+In the above example, the number you need to yell to pass `root`'s equality test is `*301*`. (This causes `root` to get the same number, `150`, from both of its monkeys.)
+
+*What number do you yell to pass `root`'s equality test?*
+
+Your puzzle answer was `3582317956029`.
+
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
+
+At this point, all that is left is for you to [admire your Advent calendar](/2022).
+
+If you still want to see it, you can [get your puzzle input](21/input).
+
+You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Monkey+Math%22+%2D+Day+21+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F21&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.

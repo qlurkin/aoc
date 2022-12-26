@@ -1,3 +1,5 @@
+article \*[title]{border-bottom:1px dotted #ffff66;}
+
 \--- Day 17: Pyroclastic Flow ---
 ----------
 
@@ -349,8 +351,23 @@ To prove to the elephants your simulation is accurate, they want to know how tal
 
 *How many units tall will the tower of rocks be after 2022 rocks have stopped falling?*
 
-To begin, [get your puzzle input](17/input).
+Your puzzle answer was `3168`.
 
-Answer:
+\--- Part Two ---
+----------
 
-You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=%22Pyroclastic+Flow%22+%2D+Day+17+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F17&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
+The elephants are not impressed by your simulation. They demand to know how tall the tower will be after `*1000000000000*` rocks have stopped! Only then will they feel confident enough to proceed through the cave.
+
+In the example above, the tower would be `*1514285714288*` units tall!
+
+*How tall will the tower be after `1000000000000` rocks have stopped?*
+
+Your puzzle answer was `1554117647070`.
+
+Both parts of this puzzle are complete! They provide two gold stars: \*\*
+
+At this point, all that is left is for you to [admire your Advent calendar](/2022).
+
+If you still want to see it, you can [get your puzzle input](17/input).
+
+You can also [Shareon [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Pyroclastic+Flow%22+%2D+Day+17+%2D+Advent+of+Code+2022&url=https%3A%2F%2Fadventofcode%2Ecom%2F2022%2Fday%2F17&related=ericwastl&hashtags=AdventOfCode) [Mastodon](javascript:void(0);)] this puzzle.
