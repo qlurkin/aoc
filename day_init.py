@@ -47,8 +47,7 @@ with OperationLogger("Create Test Input File"):
 
 os.chdir(day_path)
 
-with OperationLogger("Download Puzzle Statement"):
-    sp.run(["aoc", "read"], capture_output=True).check_returncode()
-
-with OperationLogger("Download Puzzle input"):
+with OperationLogger("Download Puzzle"):
     sp.run(["aoc", "download"], capture_output=True).check_returncode()
+
+print("Use `aoc -o download` to update puzzle.md to Part II")
